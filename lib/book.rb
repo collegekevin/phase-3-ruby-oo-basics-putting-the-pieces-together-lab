@@ -1,2 +1,29 @@
+require "pry"
+class Book
 
+    attr_accessor :author, :page_count, :genre
+    attr_reader :title
+    attr_writer
+
+    def initialize(title)
+        @title = title
+    end
+
+    def turn_page
+        puts "Flipping the page...wow, you read fast!"
+    end
+
+
+    # def title
+    #     @title
+    # end
+
+    # def author=(value)
+    #     @author = value
+    # end
+
+end
+
+# binding.pry
+# 0
 
